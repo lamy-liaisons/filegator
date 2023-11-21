@@ -7,7 +7,7 @@
 BACKERS.md export-ignore
 CHANGELOG.md export-ignore
 CODE_OF_CONDUCT.md export-ignore
-CONTRIBUTING.md export-ginore
+CONTRIBUTING.md export-ignore
 couscous.yml export-ignore
 cypress.json export-ignore
 docker-compose.yml export-ignore
@@ -15,7 +15,9 @@ Dockerfile export-ignore
 Dockerfile.multiarch export-ignore
 docs export-ignore
 jest.* export-ignore
+LICENSE export-ignore
 phpunit* export-ignore
 README.md export-ignore
 repository/.gitignore export-ignore
+SECURITY.md export-ignore
 tests export-ignore
