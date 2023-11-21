@@ -16,7 +16,8 @@ Vue.config.productionTip = false
 
 /* eslint-disable-next-line */
 Vue.config.baseURL = process.env.VUE_APP_API_ENDPOINT ? process.env.VUE_APP_API_ENDPOINT : window.location.origin+window.location.pathname+'?r='
-Vue.config.publicURL = 'http://files.localhost'
+/* eslint-disable-next-line */
+Vue.config.publicURL = process.env.VUE_APP_PUBLIC_ENDPOINT ? process.env.VUE_APP_PUBLIC_ENDPOINT : 'http://files.localhost'
 
 axios.defaults.withCredentials = true
 axios.defaults.baseURL = Vue.config.baseURL
